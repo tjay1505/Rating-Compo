@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./sass/index.css">
+</head>
+<body>
+  <div class="cont">
+    <div id="model" >
+      <div class="stars" id="star">
+        <img src="./images/icon-star.svg" alt="">
+        <span id="tooltip" >Rate US</span>
+      </div>
+      <h2>
+        How would we do ?
+      </h2>
+      <p>
+        Please let is know how we did with your support request. All feebacks appreciated to help us improving our offers.
+      </p>
+      <div class="num" >
+        <span>1</span> <span>2</span> <span>3</span> <span>4</span> <span>5</span>
+      </div>
+      <button onclick="jobDone()" >SUMBIT</button>
+    </div>
+    <div id="model2" style="display: none;" >
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <button>you selected <span id="update" ></span> out of 5</button>
+      <h2>Thank you!</h2>
+      <p>we appriciate you taking time to rate us. if you want to support more, don't hesitate to get in touch </p>
+    </div>
+  </div>
+  <script src="./sass/venila.js"></script>
+</body>
+</html>
